@@ -3,3 +3,39 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+main {
+  width: 100vw;
+  height: auto;
+}
+
+/* HEADER SENDO ESTILIZADO */
+header {
+  background-color: aqua;
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 41px;
+  padding-right: 40px;
+  padding-top: 32px;
+}
+
+/* ESTILIZANDO LOGO DO HEADER  */
+.div-icons-header > img {
+  width: 83.5px;
+  height: 26.58px;
+}
+
+/* ICONES DO HEADER SENDO ESTILIZADOS */
+.div-icons-header > ul {
+  display: flex;
+  margin-left: 62px;
+  gap: 40px;
+}
+
+/* COLOZANDO DIVS FILHAS DO HEADER COMO FLEX E COM GAP  */
+header > div {
+  display: flex;
+  gap: 40px;
+}
