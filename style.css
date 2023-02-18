@@ -79,6 +79,7 @@ header > div {
   width: 80%;
   height: auto;
   background-color: bisque;
+  display: flex;
 }
 
 .section-container > div > img {
