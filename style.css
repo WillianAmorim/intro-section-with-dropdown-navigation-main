@@ -5,6 +5,10 @@
   font-family: 'Epilogue', sans-serif;
 }
 
+body {
+  background-color: cornflowerblue
+}
+
 main {
   width: 100vw;
   height: auto;
@@ -19,7 +23,7 @@ header {
   justify-content: space-between;
   padding-left: 41px;
   padding-right: 40px;
-  padding-top: 32px;
+  margin-top: 32px;
 }
 
 /* ESTILIZANDO LOGO DO HEADER  */
