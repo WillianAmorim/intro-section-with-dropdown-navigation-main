@@ -69,3 +69,19 @@ header > div {
   border: 1.5px solid #686868;
   border-radius: 14px;
 }
+
+.section-container {
+  display: flex;
+  justify-content: center;
+}
+
+.section-container > div{
+  width: 80%;
+  height: auto;
+  background-color: bisque;
+}
+
+.section-container > div > img {
+  width: 320px;
+  height: 320px;
+}
