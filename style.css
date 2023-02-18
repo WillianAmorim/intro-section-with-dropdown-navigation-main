@@ -82,6 +82,12 @@ header > div {
   display: flex;
 }
 
+.div-section-left {
+  width: 540px;
+  height: 400px;
+  background-color: chartreuse;
+}
+
 #button-learn-more {
   width: 163px;
   height: 56px;
@@ -98,9 +104,13 @@ header > div {
 
 .section-container > div > div > ul {
   display: flex;
+  list-style: none;
+  gap: 40px;
+  background-color: brown;
 }
 
 .section-container > div > img {
   width: 320px;
-  height: 320px;
+  height: auto;
+  margin-left: 125px;
 }
