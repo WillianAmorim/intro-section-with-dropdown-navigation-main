@@ -89,6 +89,16 @@ header > div {
   background-color: chartreuse;
 }
 
+.div-section-left > h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 80px;
+  letter-spacing: -1.11111px;
+  color: #151515;
+  padding-right: 15px;
+}
+
 #button-learn-more {
   width: 163px;
   height: 56px;
