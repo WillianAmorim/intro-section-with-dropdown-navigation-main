@@ -96,6 +96,10 @@ header > div {
   border-radius: 15px;
 }
 
+.section-container > div > div > ul {
+  display: flex;
+}
+
 .section-container > div > img {
   width: 320px;
   height: 320px;
