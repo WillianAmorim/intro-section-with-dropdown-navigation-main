@@ -82,6 +82,20 @@ header > div {
   display: flex;
 }
 
+#button-learn-more {
+  width: 163px;
+  height: 56px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: -0.25px;
+  color: #FAFAFA;
+  background: #151515;
+  border-radius: 15px;
+}
+
 .section-container > div > img {
   width: 320px;
   height: 320px;
