@@ -32,6 +32,7 @@ header {
 .div-icons-header > ul {
   display: flex;
   margin-left: 62px;
+  list-style: none;
   gap: 40px;
 }
 
@@ -39,6 +40,7 @@ header {
 header > div {
   display: flex;
   gap: 40px;
+  align-items: center;
 }
 
 .style-text {
@@ -47,4 +49,19 @@ header > div {
   font-size: 14px;
   line-height: 16px;
   color: #686868;
+}
+
+#button-login, #button-register {
+  background-color: transparent;
+}
+
+#button-login {
+  border: none;
+}
+
+#button-register {
+  width: 104px;
+  height: 42px;
+  border: 1.5px solid #686868;
+  border-radius: 14px;
 }
