@@ -99,6 +99,17 @@ header > div {
   padding-right: 15px;
 }
 
+.div-section-left > p {
+  width: 445px;
+  height: 84px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #686868;
+  margin-top: 20px;
+}
+
 #button-learn-more {
   width: 163px;
   height: 56px;
@@ -111,6 +122,7 @@ header > div {
   color: #FAFAFA;
   background: #151515;
   border-radius: 15px;
+  margin-top: 30px;
 }
 
 .section-container > div > div > ul {
