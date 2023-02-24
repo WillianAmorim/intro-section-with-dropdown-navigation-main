@@ -10,6 +10,30 @@ main {
   height: auto;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: aquamarine;
+}
+
+.first-div-header {
+  background-color: blue;
+  display: flex;
+}
+
+.first-div-header > ul {
+  display: flex;
+  gap: 40px;
+  margin-left: 62px;
+  list-style: none;
+}
+
+.second-div-header {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+
 /* HEADER SENDO ESTILIZADO
 header {
   width: 100vw;
