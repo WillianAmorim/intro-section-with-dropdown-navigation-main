@@ -27,15 +27,34 @@ header {
 .first-div-header > ul {
   display: flex;
   gap: 40px;
+  align-items: center;
   margin-left: 62px;
   list-style: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #686868;
+}
+
+.itens-list-header {
+  margin-left: 8px;
 }
 
 .second-div-header {
   display: flex;
-  gap: 40px;
   list-style: none;
   background-color: brown;
+}
+
+.second-div-header > ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 40px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #686868;
 }
 
 /* HEADER SENDO ESTILIZADO
