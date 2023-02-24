@@ -13,6 +13,9 @@ main {
 header {
   display: flex;
   justify-content: space-between;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 20px;
   background-color: aquamarine;
 }
 
@@ -32,6 +35,7 @@ header {
   display: flex;
   gap: 40px;
   list-style: none;
+  background-color: brown;
 }
 
 /* HEADER SENDO ESTILIZADO
