@@ -10,7 +10,7 @@ main {
   height: auto;
 }
 
-/* HEADER SENDO ESTILIZADO */
+/* HEADER SENDO ESTILIZADO
 header {
   width: 100vw;
   height: auto;
@@ -21,13 +21,13 @@ header {
   margin-top: 32px;
 }
 
-/* ESTILIZANDO LOGO DO HEADER  */
+ESTILIZANDO LOGO DO HEADER 
 .div-icons-header > img {
   width: 83.5px;
   height: 26.58px;
 }
 
-/* ICONES DO HEADER SENDO ESTILIZADOS */
+ICONES DO HEADER SENDO ESTILIZADOS
 .div-icons-header > ul {
   display: flex;
   margin-left: 62px;
@@ -35,7 +35,7 @@ header {
   gap: 40px;
 }
 
-/* COLOZANDO DIVS FILHAS DO HEADER COMO FLEX E COM GAP  */
+COLOZANDO DIVS FILHAS DO HEADER COMO FLEX E COM GAP 
 header > div {
   display: flex;
   gap: 40px;
@@ -56,7 +56,7 @@ header > div {
 
 .show-list {
   width: 100px;
-  height: 160px;
+  height: auto;
   position: absolute;
 }
 
@@ -104,12 +104,13 @@ header > div {
 .div-section-left {
   width: 540px;
   height: 400px;
+  background-color:antiquewhite;
 }
 
 .div-section-left > h1 {
   font-style: normal;
   font-weight: 700;
-  font-size: 80px;
+  font-size: 60px;
   line-height: 80px;
   letter-spacing: -1.11111px;
   color: #151515;
@@ -153,4 +154,4 @@ header > div {
   width: 320px;
   height: auto;
   margin-left: 125px;
-}
+} */
