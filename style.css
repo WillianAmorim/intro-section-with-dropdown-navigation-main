@@ -13,7 +13,6 @@ main {
 nav {
   display: flex;
   justify-content: space-between;
-  background-color: aquamarine;
   margin-left: 40px;
   margin-right: 40px;
   padding-top: 20px;
@@ -76,5 +75,75 @@ span {
 span:hover {
   color: hsl(0, 0%, 8%);
   cursor: pointer;
+}
+
+/* INICIANDO ESTILIZAÇÃO NO MAIN */
+
+.container {
+  display: flex;
+  margin-top: 120px;
+  gap: 50px;
+}
+
+.section-left {
+  display: flex;
+  flex-direction: column;
+  padding-left: 100px;
+  align-items: flex-start;
+  width: 650px;
+}
+
+.section-left > h1 {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 80px;
+  letter-spacing: -1.11111px;
+  color: #151515;
+  margin-top: 10px;
+}
+
+.section-left > p {
+  margin-top: -25px;
+  width: 450px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #686868;
+}
+
+.section-left > button {
+  width: 163px;
+  height: 56px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: -0.25px;
+  color: #151515;
+  background: #151515;
+  border-radius: 15px;
+  color: #FAFAFA;
+  border: none;
+  margin-top: -25px;
+}
+
+#button-learn-more:hover {
+  background-color: transparent;
+  color: hsl(0, 0%, 8%);
+}
+
+.section-left > ul {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+
+.section-right {
+  padding-right: 50px;
+}
+
+.section-right > img {
+  width: 480px;
+  height: 450px;
 }
 
