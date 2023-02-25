@@ -49,10 +49,32 @@ li {
   color: #686868;
 }
 
+#button-register {
+  width: 104px;
+  height: 42px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #686868;
+  border: 1.5px solid #686868;
+  border-radius: 14px;
+  background-color: transparent;
+}
+
+#button-register:hover {
+  color: hsl(0, 0%, 8%);
+  border: 1.5px solid black
+}
+
 span {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   color: #686868;
+}
+
+span:hover {
+  color: hsl(0, 0%, 8%);
+  cursor: pointer;
 }
 
