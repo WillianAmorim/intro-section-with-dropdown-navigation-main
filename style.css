@@ -150,8 +150,8 @@ span:hover {
 
 @media screen and (max-width: 480px) {
 
-  
-  nav {
+
+  .nav-web {
     display: none;
   }
 
