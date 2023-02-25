@@ -10,211 +10,25 @@ main {
   height: auto;
 }
 
-header {
+nav {
   display: flex;
   justify-content: space-between;
-  padding-left: 40px;
-  padding-right: 40px;
-  margin-top: 20px;
   background-color: aquamarine;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
-.first-div-header {
-  display: flex;
-}
-
-.first-div-header > ul {
-  display: flex;
-  gap: 40px;
-  align-items: center;
-  margin-left: 62px;
-  list-style: none;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  color: #686868;
-}
-
-.first-div-header > ul > li {
-  display: flex;
-  align-items: center;
-}
-
-.itens-list-header {
-  margin-left: 8px;
-  height: 6px;
-}
-
-.second-div-header {
-  display: flex;
-  list-style: none;
-}
-
-.second-div-header > ul {
-  display: flex;
-  align-items: center;
-  list-style: none;
-  gap: 40px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  color: #686868;
-}
-
-#button-register {
-  border: 1.5px solid #686868;
-  border-radius: 14px;
-  width: 104px;
-  height: 42px;
-  background-color: transparent;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  color: #686868;
-}
-
-/* HEADER SENDO ESTILIZADO
-header {
-  width: 100vw;
-  height: auto;
-  display: flex;
-  justify-content: space-between;
-  padding-left: 41px;
-  padding-right: 40px;
-  margin-top: 32px;
-}
-
-ESTILIZANDO LOGO DO HEADER 
-.div-icons-header > img {
-  width: 83.5px;
-  height: 26.58px;
-}
-
-ICONES DO HEADER SENDO ESTILIZADOS
-.div-icons-header > ul {
-  display: flex;
-  margin-left: 62px;
-  list-style: none;
-  gap: 40px;
-}
-
-COLOZANDO DIVS FILHAS DO HEADER COMO FLEX E COM GAP 
-header > div {
+section {
   display: flex;
   gap: 40px;
   align-items: center;
 }
 
-.style-text {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  color: #686868;
-}
-
-.hidden-list {
+.list-hidden {
   display: none;
 }
 
-.show-list {
-  width: 100px;
-  height: auto;
+.list-show {
   position: absolute;
+  background-color: blueviolet;
 }
-
-.show-list > ul {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  list-style: none;
-  padding: 15px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  color: #686868;
-  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.149126);
-  border-radius: 10px;
-}
-
-#button-login, #button-register {
-  background-color: transparent;
-}
-
-#button-login {
-  border: none;
-}
-
-#button-register {
-  width: 104px;
-  height: 42px;
-  border: 1.5px solid #686868;
-  border-radius: 14px;
-}
-
-.section-container {
-  display: flex;
-  justify-content: center;
-  margin-top: 110px;
-}
-
-.section-container > div{
-  width: 80%;
-  height: auto;
-  display: flex;
-}
-
-.div-section-left {
-  width: 540px;
-  height: 400px;
-  background-color:antiquewhite;
-}
-
-.div-section-left > h1 {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 60px;
-  line-height: 80px;
-  letter-spacing: -1.11111px;
-  color: #151515;
-  padding-right: 15px;
-}
-
-.div-section-left > p {
-  width: 445px;
-  height: 84px;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 28px;
-  color: #686868;
-  margin-top: 20px;
-}
-
-#button-learn-more {
-  width: 163px;
-  height: 56px;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 28px;
-  text-align: center;
-  letter-spacing: -0.25px;
-  color: #FAFAFA;
-  background: #151515;
-  border-radius: 15px;
-  border: none;
-  margin-top: 30px;
-}
-
-.section-container > div > div > ul {
-  display: flex;
-  list-style: none;
-  gap: 40px;
-}
-
-.section-container > div > img {
-  width: 320px;
-  height: auto;
-  margin-left: 125px;
-} */
