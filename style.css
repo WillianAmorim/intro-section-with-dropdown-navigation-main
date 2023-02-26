@@ -150,6 +150,22 @@ span:hover {
 
 @media screen and (max-width: 480px) {
 
+  .nav-mobile {
+    background-color: aquamarine;
+  }
+
+  .icon-menu {
+    width: 32px;
+    height: 18px;
+  }
+
+  .div-hidden {
+    background-color: bisque;
+  }
+
+  .div-hidden > ul {
+    list-style: none;
+  }
 
   .nav-web {
     display: none;
