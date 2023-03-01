@@ -17,14 +17,16 @@ iconsHeader.forEach((element) => {
 })
 
 const iconMenu = document.querySelector('.icon-menu')
-const divHidden = document.querySelector('.div-hidden')
 
 iconMenu.addEventListener('click', () => {
-
   if(iconMenu.src.endsWith('icon-menu.svg')){
     iconMenu.src = './images/icon-close-menu.svg'
+
+    iconMenu.nextElementSibling.classList.remove('div-hidden')
+
   } else {
     iconMenu.src = './images/icon-menu.svg'
+    iconMenu.nextElementSibling.classList.add('div-hidden')
   }
 })
 
