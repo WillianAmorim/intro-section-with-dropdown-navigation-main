@@ -5,3 +5,28 @@
   font-family: 'Epilogue', sans-serif;
 }
 
+/* INICIO DE ESTILIZAÇÃO DO HEADER  */
+
+header {
+  margin: 16px;
+  display: flex;
+  height: 35px;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: aquamarine;
+}
+
+nav {
+  display: none;
+  gap: 32px;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 70%;
+  height: 100vh;
+  position: relative;
+  background-color: blueviolet;
+}
+
+li {
+  list-style: none;
+}
