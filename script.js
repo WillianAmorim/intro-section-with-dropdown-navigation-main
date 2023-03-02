@@ -42,5 +42,12 @@ const clickMenuClose = () => {
   main.style.backgroundColor = 'rgba(0,0,0,0.0)'
 }
 
+const iconListFeatures = () => {
+  
+}
+
+const iconListCompany = () => {
+  
+}
 
 
