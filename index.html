@@ -11,54 +11,63 @@
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+  <nav id="navmobile">
+    <figure onclick="clickMenuClose()">
+      <img src="./images/icon-close-menu.svg" alt="">
+    </figure>
+    <!-- Inicio de links -->
+    <ul>
+      <li class="list-itens-nav" onclick="iconListFeatures()">Features<img class="arrow-item" src="./images/icon-arrow-down.svg" alt="">
+        <ul id="feature" class="list-icon-header">
+          <li><a href=""><img src="./images/icon-todo.svg" alt=""> Todo List</a></li>
+          <li><a href=""><img src="./images/icon-calendar.svg" alt=""> Calendar</a></li>
+          <li><a href=""><img src="./images/icon-reminders.svg" alt=""> Reminders</a></li>
+          <li><a href=""><img src="./images/icon-planning.svg" alt=""> Planning</a></li>
+        </ul>
+      </li>
+
+      <li class="list-itens-nav" onclick="iconListCompany()">Company<img class="arrow-item" src="./images/icon-arrow-down.svg" alt="">
+        <ul id="company" class="list-icon-header">
+          <li><a href="">History</a></li>
+          <li><a href="">Our Team</a></li>
+          <li><a href="">Blog</a></li>
+        </ul>
+      </li>
+
+      <li><a class="list-itens-nav" href="">Careers</a></li>
+      <li><a class="list-itens-nav" href="">About</a></li>
+    </ul>
+
+    <ul>
+      <li class="login-register"><a class="list-itens-nav" href="">Login</a></li>
+      <li class="login-register" id="button-register"><a class="list-itens-nav" href="">Register</a></li>
+    </ul>
+    <!-- Final de links -->
+  </nav>
   <main id="main">
     <!-- Iniciando o header da aplicação -->
-    <header id="header-mobile">
-      <figure>
-        <img id="logo" src="./images/logo.svg" alt="">
-      </figure>
-
-      <figure onclick="clickMenuOpen()">
-        <img id="menu" src="./images/icon-menu.svg" alt="">
-      </figure>
-    </header>
-    <!-- Finalizando header da aplicação -->
-
-    <!-- Iniciando o menu-hamburguer -->
-    <nav id="navmobile">
-      <figure onclick="clickMenuClose()">
-        <img src="./images/icon-close-menu.svg" alt="">
-      </figure>
-      <!-- Inicio de links -->
-      <ul>
-        <li class="list-itens-nav" onclick="iconListFeatures()">Features<img class="arrow-item" src="./images/icon-arrow-down.svg" alt="">
-          <ul id="feature" class="list-icon-header">
-            <li><a href=""><img src="./images/icon-todo.svg" alt=""> Todo List</a></li>
-            <li><a href=""><img src="./images/icon-calendar.svg" alt=""> Calendar</a></li>
-            <li><a href=""><img src="./images/icon-reminders.svg" alt=""> Reminders</a></li>
-            <li><a href=""><img src="./images/icon-planning.svg" alt=""> Planning</a></li>
-          </ul>
-        </li>
-
-        <li class="list-itens-nav" onclick="iconListCompany()">Company<img class="arrow-item" src="./images/icon-arrow-down.svg" alt="">
-          <ul id="company" class="list-icon-header">
-            <li><a href="">History</a></li>
-            <li><a href="">Our Team</a></li>
-            <li><a href="">Blog</a></li>
-          </ul>
-        </li>
-
-        <li><a class="list-itens-nav" href="">Careers</a></li>
-        <li><a class="list-itens-nav" href="">About</a></li>
-      </ul>
-
-      <ul>
-        <li class="login-register"><a class="list-itens-nav" href="">Login</a></li>
-        <li class="login-register" id="button-register"><a class="list-itens-nav" href="">Register</a></li>
-      </ul>
-      <!-- Final de links -->
-    </nav>
+      <header id="header-mobile">
+        <figure>
+          <img id="logo" src="./images/logo.svg" alt="">
+        </figure>
+  
+        <figure onclick="clickMenuOpen()">
+          <img id="menu" src="./images/icon-menu.svg" alt="">
+        </figure>
+      </header>
+      <!-- Finalizando header da aplicação -->
+  
+      <!-- Iniciando o menu-hamburguer -->
+      
     <!-- Finalizando o menu Hamburguer -->
+    <div>
+      <section id="section-img">
+        <figure>
+          <img src="./images/image-hero-mobile.png" alt="">
+        </figure>
+      </section>
+      <section id="section-apresentation"></section>
+    </div>
   </main>
 <script src="./script.js"></script>
 </body>
