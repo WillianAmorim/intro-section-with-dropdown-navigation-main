@@ -7,7 +7,6 @@
 }
 
 #main {
-  display: flex;
   width: 100vw;
   height: 100vh;
 }
@@ -15,7 +14,7 @@
 /* INICIO DE ESTILIZAÇÃO DO HEADER  */
 
 #header-mobile {
-  margin: 16px;
+  padding: 16px;
   display: flex;
   height: 35px;
   width: 100vw;
@@ -27,11 +26,11 @@
   display: none;
   padding: 20px;
   gap: 32px;
+  margin-left: 30vw;
   flex-direction: column;
-  align-self: flex-end;
-  width: 170vw;
+  width: 70vw;
   height: 100vh;
-  position: relative;
+  position: absolute;
   background-color: #FFFFFF;
 }
 
@@ -89,4 +88,13 @@ a {
   border: 1px solid #686868;
   padding: 15px;
   border-radius: 25px;
+}
+
+/* ESTILIZAÇÃO DA SECTION-IMG  */ 
+#section-img {
+  margin-top: 24px;
+}
+
+#section-img > figure > img{
+  width: 100vw;
 }
