@@ -23,11 +23,6 @@ header {
   background-color: aquamarine;
 }
 
-#logo {
-  width:87px;
-  height:35px;
-}
-
 nav {
   display: none;
   padding: 20px;
@@ -44,6 +39,15 @@ nav {
   align-self: flex-end;
 }
 
+ul > li {
+  margin-bottom: 16px;
+}
+
 li {
   list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
