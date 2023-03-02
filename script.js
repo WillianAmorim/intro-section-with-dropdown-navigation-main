@@ -33,12 +33,13 @@
 const clickMenuOpen = () => {
   nav.style.display = 'flex';
   menu.style.display = 'none'
+  main.style.backgroundColor = 'rgba(0,0,0,0.5)'
 }
 
 const clickMenuClose = () => {
   nav.style.display = 'none'
   menu.style.display = 'flex'
-
+  main.style.backgroundColor = 'rgba(0,0,0,0.0)'
 }
 
 

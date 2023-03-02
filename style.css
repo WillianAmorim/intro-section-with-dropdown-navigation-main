@@ -5,26 +5,43 @@
   font-family: 'Epilogue', sans-serif;
 }
 
+#main {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
 /* INICIO DE ESTILIZAÇÃO DO HEADER  */
 
 header {
   margin: 16px;
   display: flex;
   height: 35px;
-  justify-content: space-between;
+  width: 100vw;
   align-items: flex-start;
+  justify-content: space-between;
   background-color: aquamarine;
+}
+
+#logo {
+  width:87px;
+  height:35px;
 }
 
 nav {
   display: none;
+  padding: 20px;
   gap: 32px;
   flex-direction: column;
-  align-items: flex-end;
-  width: 70%;
+  align-self: flex-end;
+  width: 170vw;
   height: 100vh;
   position: relative;
-  background-color: blueviolet;
+  background-color: #FFFFFF;
+}
+
+#nav > figure {
+  align-self: flex-end;
 }
 
 li {
