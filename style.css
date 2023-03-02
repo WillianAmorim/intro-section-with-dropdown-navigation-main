@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Epilogue', sans-serif;
+  font-style: normal
 }
 
 #main {
@@ -20,7 +21,6 @@ header {
   width: 100vw;
   align-items: flex-start;
   justify-content: space-between;
-  background-color: aquamarine;
 }
 
 nav {
@@ -52,12 +52,41 @@ a {
   color: black;
 }
 
+.list-itens-nav{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #686868;
+}
+
 /* ESTILIZAÇÃO DE LISTA DE ICONES DO HEADER (COMPANY E FEATURES) */
+
+.arrow-item {
+  margin-left: 10px;
+}
 
 .list-icon-header {
   text-align: center;
   margin-top: 24px;
-  display: flex;
+  display: none;
   flex-direction: column;
   gap: 16px;
+
+}
+
+.list-icon-header > li > a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #686868;
+}
+
+.login-register {
+  text-align: center;
+}
+
+#button-register {
+  border: 1px solid #686868;
+  padding: 15px;
+  border-radius: 25px;
 }

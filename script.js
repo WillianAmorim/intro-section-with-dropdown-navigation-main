@@ -44,10 +44,19 @@ const clickMenuClose = () => {
 
 const iconListFeatures = () => {
   
+  if(feature.style.display == 'flex') {
+    feature.style.display = 'none'
+  } else {
+    feature.style.display = 'flex'
+  }
 }
 
 const iconListCompany = () => {
-  
+  if(company.style.display == 'flex') {
+    company.style.display = 'none'
+  } else {
+    company.style.display = 'flex'
+  }
 }
 
 
