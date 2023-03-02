@@ -14,7 +14,7 @@
 
 /* INICIO DE ESTILIZAÇÃO DO HEADER  */
 
-header {
+#header-mobile {
   margin: 16px;
   display: flex;
   height: 35px;
@@ -23,7 +23,7 @@ header {
   justify-content: space-between;
 }
 
-nav {
+#navmobile {
   display: none;
   padding: 20px;
   gap: 32px;
@@ -35,7 +35,7 @@ nav {
   background-color: #FFFFFF;
 }
 
-#nav > figure {
+#navmobile > figure {
   align-self: flex-end;
 }
 
