@@ -310,9 +310,4 @@ footer {
   }
 
   /* RETIRANDO EFEITO DE HOVER DOS BOTÕES */
-  #button-learnMore[disabled]:hover
-
-  #button-register[disabled]:hover {}
-
-
 }
