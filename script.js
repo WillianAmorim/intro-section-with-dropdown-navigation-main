@@ -32,14 +32,10 @@ const navMobile = document.getElementById('nav-mobile');
 
 const clickMenuOpen = () => {
   navMobile.style.display = 'flex';
-  menu.style.display = 'none'
-  main.style.backgroundColor = 'rgba(0,0,0,0.5)'
 }
 
 const clickMenuClose = () => {
   navMobile.style.display = 'none'
-  menu.style.display = 'flex'
-  main.style.backgroundColor = 'rgba(0,0,0,0.0)'
 }
 
 const iconListFeatures = () => {
