@@ -174,7 +174,6 @@ main {
 header {
   display: flex;
   justify-content:flex-start;
-  background-color: aquamarine;
   gap: 60px;
   padding: 24px 40px 0 40px;
 }
@@ -222,7 +221,32 @@ li {
   box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.149126);
 }
 
+#ul-hidden-company {
+  width: 116px;
+  height: 128px;
+}
+
+.ul-itens > li:hover, #login:hover{
+  color: #151515;
+}
+
+#button-register:hover {
+  border: 1px solid #151515;
+  color: #151515;
+}
+
+#ul-hidden-features > li {
+  display: flex;
+  gap: 15px;
+}
+
 a {
   text-decoration: none;
   color: #686868;
+}
+
+#button-register {
+  border: 1px solid #686868;
+  padding: 15px 25px;
+  border-radius: 15px;
 }
