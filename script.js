@@ -42,23 +42,6 @@
 //   main.style.backgroundColor = 'rgba(0,0,0,0.0)'
 // }
 
-// const iconListFeatures = () => {
-  
-//   if(feature.style.display == 'flex') {
-//     feature.style.display = 'none'
-//   } else {
-//     feature.style.display = 'flex'
-//   }
-// }
-
-// const iconListCompany = () => {
-//   if(company.style.display == 'flex') {
-//     company.style.display = 'none'
-//   } else {
-//     company.style.display = 'flex'
-//   }
-// }
-
 const hiddenFeatures = document.getElementById('ul-hidden-features');
 const hiddenCompany = document.getElementById('ul-hidden-company');
 
@@ -85,6 +68,47 @@ const clickCompany = () => {
     hiddenCompany.style.display = 'none'
   } else {
     hiddenCompany.style.display = 'flex'
+  }
+}
+
+// FUNÇÕES DE CLICK DO ITEM PARA ABRIR O NAV
+const navMobile = document.getElementById('nav-mobile');
+
+const clickMenuOpen = () => {
+  navMobile.style.display = 'flex';
+  menu.style.display = 'none'
+  main.style.backgroundColor = 'rgba(0,0,0,0.5)'
+}
+
+const clickMenuClose = () => {
+  navMobile.style.display = 'none'
+  menu.style.display = 'flex'
+  main.style.backgroundColor = 'rgba(0,0,0,0.0)'
+}
+
+const iconListFeatures = () => {
+
+  if(company.style.display == 'flex') {
+    company.style.display = 'none'
+  }
+  
+  if(feature.style.display == 'flex') {
+    feature.style.display = 'none'
+  } else {
+    feature.style.display = 'flex'
+  }
+}
+
+const iconListCompany = () => {
+
+  if(feature.style.display == 'flex') {
+    feature.style.display = 'none'
+  }
+
+  if(company.style.display == 'flex') {
+    company.style.display = 'none'
+  } else {
+    company.style.display = 'flex'
   }
 }
 

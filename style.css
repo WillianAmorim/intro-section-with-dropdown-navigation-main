@@ -171,6 +171,18 @@ main {
   width: 100vw;
 }
 
+#nav-mobile {
+  display: none;
+}
+
+#figure-img-mobile {
+  display: none;
+}
+
+#icon-menu-mobile {
+  display: none;
+}
+
 header {
   display: flex;
   justify-content:flex-start;
@@ -280,8 +292,7 @@ a {
   font-size: 18px;
   line-height: 28px;
   color: #686868;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin: 40px 0px;
   width: 445px;
 }
 
@@ -310,10 +321,139 @@ footer {
 
 #icons-list-footer {
   display: flex;
-  justify-content: space-around;
+  gap: 20px;
 }
 
 .section-img > figure > img{
   width: 480px;
   height: 500px;
+}
+
+/* INICIANDO A ESTILIZAÇÃO MOBILE */
+
+@media (max-width: 480px) {
+
+  /* RETIRANDO A BARRA DE NAVEGAÇÃO E A IMAGEM DO MOBILE */
+  .nav-web {
+    display: none;
+  }
+
+  #figure-img-web {
+    display: none;
+  }
+
+  /* FINALIZADO EXCLUSAO DE ITENS QUE PERTENCEM AO WEB */
+
+  /* INICIO DA ESTILIZAÇÃO DO HEADER */
+    header {
+      gap: 0px;
+      justify-content: space-between;
+      padding: 16px 16px 0 16px;
+    }
+
+    #nav-mobile {
+      display: none;
+      padding: 20px;
+      gap: 32px;
+      margin-left: 30vw;
+      flex-direction: column;
+      width: 70vw;
+      height: 100vh;
+      position: absolute;
+      background-color: #FFFFFF;
+    }
+
+    #nav-mobile > figure {
+      align-self: flex-end;
+    }
+
+    #list-hidden-mobile {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .arrow-item {
+      margin-left: 10px;
+    }
+
+    .list-itens-nav {
+      gap: 16px;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 26px;
+      color: #686868;
+    }
+
+    #feature, #company{
+      display: none;
+      flex-direction: column;
+      gap: 16px;
+      margin-top: 24px;
+      text-align: center;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 26px;
+      color: #686868;
+    }
+  /* FIM DA ESTILIZAÇÃO DO HEADER */
+
+  .container {
+    flex-direction: column-reverse;
+    /* align-items: center; */
+    margin: 0;
+    margin-top: 24px;
+    gap: 40px;
+  }
+
+  .section-apresentation {
+    width: 100vw;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section-apresentation > h1 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: -0.5px;
+    color: #151515;
+  }
+
+  .section-apresentation > p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #686868;
+    margin: 0;
+    padding: 16px;
+    width: 100vw;
+    text-align: center;
+  }
+
+  #button-learnMore {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: -0.222222px;
+    color: #FAFAFA;
+  }
+
+  footer {
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+
+  #icons-list-footer > li > img {
+    width: 60px;
+  }
+
+  .section-img > figure > img{
+    width: 100vw;
+    height: 280px;
+  }
 }

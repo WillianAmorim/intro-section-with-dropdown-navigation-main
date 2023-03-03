@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
@@ -11,14 +10,14 @@
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  <!-- <nav id="navmobile">
+  <nav id="nav-mobile">
     <figure onclick="clickMenuClose()">
       <img src="./images/icon-close-menu.svg" alt="">
     </figure>
-    <ul>
+    <ul id="list-hidden-mobile">
       <li class="list-itens-nav" onclick="iconListFeatures()">Features<img class="arrow-item" src="./images/icon-arrow-down.svg" alt="">
         <ul id="feature" class="list-icon-header">
-          <li><a href=""><img src="./images/icon-todo.svg" alt=""> Todo List</a></li>
+          <li><a href=""><img src="./images/icon-todo.svg" alt="olá"> Todo List</a></li>
           <li><a href=""><img src="./images/icon-calendar.svg" alt=""> Calendar</a></li>
           <li><a href=""><img src="./images/icon-reminders.svg" alt=""> Reminders</a></li>
           <li><a href=""><img src="./images/icon-planning.svg" alt=""> Planning</a></li>
@@ -41,12 +40,17 @@
       <li class="login-register"><a class="list-itens-nav" href="">Login</a></li>
       <li class="login-register" id="button-register"><a class="list-itens-nav" href="">Register</a></li>
     </ul>
-  </nav> -->
+  </nav>
   <main>
     <header>
       <figure>
         <img src="./images/logo.svg" alt="">
       </figure>
+
+      <figure onclick="clickMenuOpen()">
+        <img id="icon-menu-mobile" src="./images/icon-menu.svg" alt="">
+      </figure>
+
       <nav class="nav-web">
         <ul class="ul-itens">
           <li onclick="clickFeatures()">Features <img src="./images/icon-arrow-down.svg" alt="">
@@ -91,8 +95,12 @@
       </section>
 
       <section class="section-img">
-        <figure>
+        <figure id="figure-img-web">
           <img src="./images/image-hero-desktop.png" alt="">
+        </figure>
+
+        <figure id="figure-img-mobile">
+          <img src="./images/image-hero-mobile.png" alt="">
         </figure>
       </section>
 
