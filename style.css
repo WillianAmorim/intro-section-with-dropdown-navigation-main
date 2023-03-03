@@ -310,4 +310,9 @@ footer {
   }
 
   /* RETIRANDO EFEITO DE HOVER DOS BOTÕES */
+  #button-learnMore:hover {
+    border: none;
+    background-color: black;
+    color: #FFFFFF;
+  }
 }
