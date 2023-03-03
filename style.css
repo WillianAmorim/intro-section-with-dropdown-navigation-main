@@ -228,11 +228,13 @@ li {
 
 .ul-itens > li:hover, #login:hover{
   color: #151515;
+  cursor: pointer;
 }
 
 #button-register:hover {
   border: 1px solid #151515;
   color: #151515;
+  cursor: pointer;
 }
 
 #ul-hidden-features > li {
@@ -249,4 +251,69 @@ a {
   border: 1px solid #686868;
   padding: 15px 25px;
   border-radius: 15px;
+}
+
+/* FINALIZADO ESTILIZAÇÃO DO HEADER */
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin: 65px 90px 0px 90px;
+}
+
+.section-apresentation {
+  width: 540px;
+  margin-top: 60px;
+}
+
+.section-apresentation > h1 {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 80px;
+  letter-spacing: -1.11111px;
+  color: #151515;
+}
+
+.section-apresentation > p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #686868;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 445px;
+}
+
+#button-learnMore {
+  background-color: #151515;
+  padding: 15px 25px;
+  border-radius: 15px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: -0.25px;
+  color: #FAFAFA;
+}
+
+#button-learnMore:hover {
+  background-color: #FFFFFF;
+  color: black;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 50px;
+}
+
+#icons-list-footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.section-img > figure > img{
+  width: 480px;
+  height: 500px;
 }
