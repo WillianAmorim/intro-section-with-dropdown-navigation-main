@@ -6,14 +6,14 @@
   font-style: normal
 }
 
-#main {
+/* #main {
   width: 100vw;
   height: 100vh;
-}
+} */
 
 /* INICIO DE ESTILIZAÇÃO DO HEADER  */
 
-#header-mobile {
+/* #header {
   padding: 16px;
   display: flex;
   height: 35px;
@@ -56,11 +56,11 @@ a {
   font-size: 16px;
   line-height: 26px;
   color: #686868;
-}
+} */
 
 /* ESTILIZAÇÃO DE LISTA DE ICONES DO HEADER (COMPANY E FEATURES) */
 
-.arrow-item {
+/* .arrow-item {
   margin-left: 10px;
 }
 
@@ -91,16 +91,16 @@ a {
 }
 
 /* ESTILIZAÇÃO DA SECTION-IMG  */ 
-#section-img {
+/* #section-img {
   margin-top: 24px;
 }
 
 #section-img > figure > img{
   width: 100vw;
-}
+} */
 
 /* ESTILIZAÇÃO DA SECTION-APRESENTATION */
-
+/* 
 #section-apresentation {
   width: 100vw;
   display: flex;
@@ -146,4 +146,69 @@ footer > ul {
 
 footer > ul > li > img{
   width: 70px;
+} */
+
+/* @media screen and (min-width: 769px){
+  #icon-menu {
+    display: none;
+  }
+
+  #navmobile {
+    display: none;
+  }
+
+  #header {
+    justify-content: flex-start;
+  }
+
+  #nav-web {
+    display: flex;
+    background-color: #686868;
+  }
+} */
+
+main {
+  width: 100vw;
+}
+
+header {
+  display: flex;
+  justify-content:flex-start;
+  background-color: aquamarine;
+  gap: 60px;
+  padding: 24px 40px 0 40px;
+}
+
+.nav-web {
+  width: 100vw;
+  display: flex;
+  justify-content:space-between;
+  align-items: flex-start;
+}
+
+li {
+  list-style: none;
+}
+
+.ul-itens {
+  display: flex;
+  gap: 40px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #686868;
+}
+
+.ul-login-register {
+  display: flex;
+  gap: 40px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  color: #686868;
 }

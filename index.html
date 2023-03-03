@@ -11,11 +11,10 @@
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  <nav id="navmobile">
+  <!-- <nav id="navmobile">
     <figure onclick="clickMenuClose()">
       <img src="./images/icon-close-menu.svg" alt="">
     </figure>
-    <!-- Inicio de links -->
     <ul>
       <li class="list-itens-nav" onclick="iconListFeatures()">Features<img class="arrow-item" src="./images/icon-arrow-down.svg" alt="">
         <ul id="feature" class="list-icon-header">
@@ -42,44 +41,25 @@
       <li class="login-register"><a class="list-itens-nav" href="">Login</a></li>
       <li class="login-register" id="button-register"><a class="list-itens-nav" href="">Register</a></li>
     </ul>
-    <!-- Final de links -->
-  </nav>
-  <main id="main">
-    <!-- Iniciando o header da aplicação -->
-      <header id="header-mobile">
-        <figure>
-          <img id="logo" src="./images/logo.svg" alt="">
-        </figure>
-  
-        <figure onclick="clickMenuOpen()">
-          <img id="menu" src="./images/icon-menu.svg" alt="">
-        </figure>
-      </header>
-      <!-- Finalizando header da aplicação -->
-  
-      <!-- Iniciando o menu-hamburguer -->
-      
-    <!-- Finalizando o menu Hamburguer -->
-    <div>
-      <section id="section-img">
-        <figure>
-          <img src="./images/image-hero-mobile.png" alt="">
-        </figure>
-      </section>
-      <section id="section-apresentation">
-        <h1>Make remote work</h1>
-        <p>Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
-        <a href="">Learn more</a>
-      </section>
-      <footer>
-        <ul>
-          <li><img src="./images/client-databiz.svg" alt=""></li>
-          <li><img src="./images/client-audiophile.svg" alt=""></li>
-          <li><img src="./images/client-meet.svg" alt=""></li>
-          <li><img src="./images/client-maker.svg" alt=""></li>
+  </nav> -->
+  <main>
+    <header>
+      <figure>
+        <img src="./images/logo.svg" alt="">
+      </figure>
+      <nav class="nav-web">
+        <ul class="ul-itens">
+          <li>Features <img src="./images/icon-arrow-down.svg" alt=""></li>
+          <li>Company <img src="./images/icon-arrow-down.svg" alt=""></li>
+          <li>Careers</li>
+          <li>About</li>
         </ul>
-      </footer>
-    </div>
+        <ul class="ul-login-register">
+          <li><a href="">Login</a></li>
+          <li><a href="">Register</a></li>
+        </ul>
+      </nav>
+    </header>
   </main>
 <script src="./script.js"></script>
 </body>
