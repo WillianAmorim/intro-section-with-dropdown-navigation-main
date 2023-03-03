@@ -49,8 +49,21 @@
       </figure>
       <nav class="nav-web">
         <ul class="ul-itens">
-          <li>Features <img src="./images/icon-arrow-down.svg" alt=""></li>
-          <li>Company <img src="./images/icon-arrow-down.svg" alt=""></li>
+          <li onclick="clickFeatures()">Features <img src="./images/icon-arrow-down.svg" alt="">
+            <ul id="ul-hidden-features">
+              <li>Todo List</li>
+              <li>Calendar</li>
+              <li>Reminders</li>
+              <li>Planning</li>
+            </ul>
+          </li>
+          <li onclick="clickCompany()">Company <img src="./images/icon-arrow-down.svg" alt="">
+            <ul id="ul-hidden-company">
+              <li>History</li>
+              <li>Our Team</li>
+              <li>Blog</li>
+            </ul>
+          </li>
           <li>Careers</li>
           <li>About</li>
         </ul>

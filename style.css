@@ -207,8 +207,22 @@ li {
   line-height: 16px;
 }
 
+#ul-hidden-features, #ul-hidden-company {
+  display: none;
+  margin-top: 20px;
+  width: 153px;
+  height: 160px;
+  position: absolute;
+  text-align: center;
+  padding: 24px;
+  flex-direction: column;
+  gap: 16px;
+  border-radius: 10px;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.149126);
+}
+
 a {
   text-decoration: none;
-  color: black;
   color: #686868;
 }

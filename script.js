@@ -30,32 +30,61 @@
 //   }
 // })
 
-const clickMenuOpen = () => {
-  navmobile.style.display = 'flex';
-  menu.style.display = 'none'
-  main.style.backgroundColor = 'rgba(0,0,0,0.5)'
-}
+// const clickMenuOpen = () => {
+//   navmobile.style.display = 'flex';
+//   menu.style.display = 'none'
+//   main.style.backgroundColor = 'rgba(0,0,0,0.5)'
+// }
 
-const clickMenuClose = () => {
-  navmobile.style.display = 'none'
-  menu.style.display = 'flex'
-  main.style.backgroundColor = 'rgba(0,0,0,0.0)'
-}
+// const clickMenuClose = () => {
+//   navmobile.style.display = 'none'
+//   menu.style.display = 'flex'
+//   main.style.backgroundColor = 'rgba(0,0,0,0.0)'
+// }
 
-const iconListFeatures = () => {
+// const iconListFeatures = () => {
   
-  if(feature.style.display == 'flex') {
-    feature.style.display = 'none'
+//   if(feature.style.display == 'flex') {
+//     feature.style.display = 'none'
+//   } else {
+//     feature.style.display = 'flex'
+//   }
+// }
+
+// const iconListCompany = () => {
+//   if(company.style.display == 'flex') {
+//     company.style.display = 'none'
+//   } else {
+//     company.style.display = 'flex'
+//   }
+// }
+
+const hiddenFeatures = document.getElementById('ul-hidden-features');
+const hiddenCompany = document.getElementById('ul-hidden-company');
+
+const clickFeatures = () => {
+  // alert('olá')
+  if(hiddenCompany.style.display == 'flex') {
+    hiddenCompany.style.display = 'none'
+  }
+
+  if(hiddenFeatures.style.display == 'flex') {
+    hiddenFeatures.style.display = 'none'
   } else {
-    feature.style.display = 'flex'
+    hiddenFeatures.style.display = 'flex'
+
   }
 }
 
-const iconListCompany = () => {
-  if(company.style.display == 'flex') {
-    company.style.display = 'none'
+const clickCompany = () => {
+  if(hiddenFeatures.style.display == 'flex') {
+    hiddenFeatures.style.display = 'none'
+  }
+
+  if(hiddenCompany.style.display == 'flex') {
+    hiddenCompany.style.display = 'none'
   } else {
-    company.style.display = 'flex'
+    hiddenCompany.style.display = 'flex'
   }
 }
 
