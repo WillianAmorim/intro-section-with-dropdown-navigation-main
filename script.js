@@ -69,5 +69,3 @@ const iconListCompany = () => {
     company.style.display = 'flex'
   }
 }
-
-

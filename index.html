@@ -1,111 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
-  <title>Intro section with dropdown navigation</title>
-  <link rel="stylesheet" href="./style.css">
-</head>
-<body id="body">
-  <nav id="nav-mobile">
-    <figure onclick="clickMenuClose()">
-      <img src="./images/icon-close-menu.svg" alt="">
-    </figure>
-    <ul id="list-hidden-mobile">
-      <li class="list-itens-nav" onclick="iconListFeatures()">Features<img class="arrow-item" src="./images/icon-arrow-down.svg" alt="">
-        <ul id="feature" class="list-icon-header">
-          <li><a href=""><img src="./images/icon-todo.svg" alt="olá"> Todo List</a></li>
-          <li><a href=""><img src="./images/icon-calendar.svg" alt=""> Calendar</a></li>
-          <li><a href=""><img src="./images/icon-reminders.svg" alt=""> Reminders</a></li>
-          <li><a href=""><img src="./images/icon-planning.svg" alt=""> Planning</a></li>
-        </ul>
-      </li>
-
-      <li class="list-itens-nav" onclick="iconListCompany()">Company<img class="arrow-item" src="./images/icon-arrow-down.svg" alt="">
-        <ul id="company" class="list-icon-header">
-          <li><a href="">History</a></li>
-          <li><a href="">Our Team</a></li>
-          <li><a href="">Blog</a></li>
-        </ul>
-      </li>
-
-      <li><a class="list-itens-nav" href="">Careers</a></li>
-      <li><a class="list-itens-nav" href="">About</a></li>
-    </ul>
-
-    <ul>
-      <li class="login-register"><a class="list-itens-nav" href="">Login</a></li>
-      <li class="login-register" id="button-register"><a class="list-itens-nav" href="">Register</a></li>
-    </ul>
-  </nav>
-  <main id="main">
-    <header>
-      <figure>
-        <img src="./images/logo.svg" alt="">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link href="css/hover.css" rel="stylesheet" media="all" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./node_modules/hover.css/css/hover-min.css"
+    />
+    <title>Intro section with dropdown navigation</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body id="body">
+    <nav id="nav-mobile">
+      <figure onclick="clickMenuClose()">
+        <img src="./images/icon-close-menu.svg" alt="" />
       </figure>
-
-      <figure onclick="clickMenuOpen()">
-        <img id="icon-menu-mobile" src="./images/icon-menu.svg" alt="">
-      </figure>
-
-      <nav class="nav-web">
-        <ul class="ul-itens">
-          <li onclick="clickFeatures()">Features <img src="./images/icon-arrow-down.svg" alt="">
-            <ul id="ul-hidden-features">
-              <li><img src="./images/icon-todo.svg" alt=""> Todo List</li>
-              <li><img src="./images/icon-calendar.svg" alt=""> Calendar</li>
-              <li><img src="./images/icon-reminders.svg" alt=""> Reminders</li>
-              <li><img src="./images/icon-planning.svg" alt=""> Planning</li>
-            </ul>
-          </li>
-          <li onclick="clickCompany()">Company <img src="./images/icon-arrow-down.svg" alt="">
-            <ul id="ul-hidden-company">
-              <li>History</li>
-              <li>Our Team</li>
-              <li>Blog</li>
-            </ul>
-          </li>
-          <li>Careers</li>
-          <li>About</li>
-        </ul>
-        <ul class="ul-login-register">
-          <li><a id="login" href="">Login</a></li>
-          <li><a id="button-register" href="">Register</a></li>
-        </ul>
-      </nav>
-    </header>
-
-    <div class="container">
-
-      <section class="section-apresentation">
-        <h1>Make remote work</h1>
-        <p>Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
-        <a id="button-learnMore">Learn more</a>
-        <footer>
-          <ul id="icons-list-footer">
-            <li><img src="./images/client-databiz.svg" alt=""></li>
-            <li><img src="./images/client-audiophile.svg" alt=""></li>
-            <li><img src="./images/client-meet.svg" alt=""></li>
-            <li><img src="./images/client-maker.svg" alt=""></li>
+      <ul id="list-hidden-mobile">
+        <li class="list-itens-nav" onclick="iconListFeatures()">
+          Features<img
+            class="arrow-item"
+            src="./images/icon-arrow-down.svg"
+            alt=""
+          />
+          <ul id="feature" class="list-icon-header">
+            <li>
+              <a href=""
+                ><img src="./images/icon-todo.svg" alt="olá" /> Todo List</a
+              >
+            </li>
+            <li>
+              <a href=""
+                ><img src="./images/icon-calendar.svg" alt="" /> Calendar</a
+              >
+            </li>
+            <li>
+              <a href=""
+                ><img src="./images/icon-reminders.svg" alt="" /> Reminders</a
+              >
+            </li>
+            <li>
+              <a href=""
+                ><img src="./images/icon-planning.svg" alt="" /> Planning</a
+              >
+            </li>
           </ul>
-        </footer>
-      </section>
+        </li>
 
-      <section class="section-img">
-        <figure id="figure-img-web">
-          <img src="./images/image-hero-desktop.png" alt="">
+        <li class="list-itens-nav" onclick="iconListCompany()">
+          Company<img
+            class="arrow-item"
+            src="./images/icon-arrow-down.svg"
+            alt=""
+          />
+          <ul id="company" class="list-icon-header">
+            <li><a href="">History</a></li>
+            <li><a href="">Our Team</a></li>
+            <li><a href="">Blog</a></li>
+          </ul>
+        </li>
+
+        <li><a class="list-itens-nav" href="">Careers</a></li>
+        <li><a class="list-itens-nav" href="">About</a></li>
+      </ul>
+
+      <ul>
+        <li class="login-register">
+          <a class="list-itens-nav" href="">Login</a>
+        </li>
+        <li class="login-register" id="button-register">
+          <a class="list-itens-nav" href="">Register</a>
+        </li>
+      </ul>
+    </nav>
+    <main id="main">
+      <header>
+        <figure>
+          <img src="./images/logo.svg" alt="" />
         </figure>
 
-        <figure id="figure-img-mobile">
-          <img src="./images/image-hero-mobile.png" alt="">
+        <figure onclick="clickMenuOpen()">
+          <img id="icon-menu-mobile" src="./images/icon-menu.svg" alt="" />
         </figure>
-      </section>
 
-    </div>
-  </main>
-<script src="./script.js"></script>
-</body>
+        <nav class="nav-web">
+          <ul class="ul-itens">
+            <li onmouseover="clickFeatures()" class="hvr-grow">
+              Features
+              <img class="icon-arrow" src="./images/icon-arrow-down.svg" alt="" />
+              <ul id="ul-hidden-features">
+                <li><img src="./images/icon-todo.svg" alt="" /> Todo List</li>
+                <li>
+                  <img src="./images/icon-calendar.svg" alt="" /> Calendar
+                </li>
+                <li>
+                  <img src="./images/icon-reminders.svg" alt="" /> Reminders
+                </li>
+                <li>
+                  <img src="./images/icon-planning.svg" alt="" /> Planning
+                </li>
+              </ul>
+            </li>
+            <li onmouseover="clickCompany()" class="hvr-grow">
+              Company
+              <img class="icon-arrow" src="./images/icon-arrow-down.svg" alt="" />
+              <ul id="ul-hidden-company">
+                <li>History</li>
+                <li>Our Team</li>
+                <li>Blog</li>
+              </ul>
+            </li>
+            <li class="hvr-grow">Careers</li>
+            <li class="hvr-grow">About</li>
+          </ul>
+          <ul class="ul-login-register">
+            <li class="hvr-grow"><a id="login" href="">Login</a></li>
+            <li class="hvr-grow">
+              <a id="button-register" href="">Register</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="container">
+        <section class="section-apresentation">
+          <h1>Make remote work</h1>
+          <p>
+            Get your team in sync, no matter your location. Streamline
+            processes, create team rituals, and watch productivity soar.
+          </p>
+          <a id="button-learnMore">Learn more</a>
+          <footer>
+            <ul id="icons-list-footer">
+              <li><img src="./images/client-databiz.svg" alt="" /></li>
+              <li><img src="./images/client-audiophile.svg" alt="" /></li>
+              <li><img src="./images/client-meet.svg" alt="" /></li>
+              <li><img src="./images/client-maker.svg" alt="" /></li>
+            </ul>
+          </footer>
+        </section>
+
+        <section class="section-img">
+          <figure id="figure-img-web">
+            <img src="./images/image-hero-desktop.png" alt="" />
+          </figure>
+
+          <figure id="figure-img-mobile">
+            <img src="./images/image-hero-mobile.png" alt="" />
+          </figure>
+        </section>
+      </div>
+    </main>
+    <script src="./script.js"></script>
+  </body>
 </html>

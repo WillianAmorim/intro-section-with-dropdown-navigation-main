@@ -168,6 +168,19 @@ footer {
   display: none;
 }
 
+.ul-itens li:nth-child(1):hover img,
+.ul-itens li:nth-child(2):hover img {
+  animation: movimento 1s infinite;
+  position: relative;
+}
+
+@keyframes movimento {
+  0% {top: 0px;}
+  50%{top: 3px}
+  100%{top: 0px}
+}
+
+
 /* INICIANDO A ESTILIZAÇÃO MOBILE */
 
 @media screen and (max-width: 480px) {
