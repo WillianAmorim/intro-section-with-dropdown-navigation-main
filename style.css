@@ -172,6 +172,11 @@ footer {
 
 @media screen and (max-width: 480px) {
 
+  .style-body {
+    background:rgba(0, 0, 0, 0.5);
+    filter: brightness(40%);
+  }
+
   /* RETIRANDO A BARRA DE NAVEGAÇÃO E A IMAGEM DO MOBILE */
   .nav-web {
     display: none;
@@ -208,6 +213,7 @@ footer {
       height: 100vh;
       position: absolute;
       background-color: #FFFFFF;
+      z-index: 1;
     }
 
     #nav-mobile > figure {
