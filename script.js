@@ -29,19 +29,13 @@ const clickCompany = () => {
 
 // FUNÇÕES DE CLICK DO ITEM PARA ABRIR O NAV
 const navMobile = document.getElementById('nav-mobile');
-const styleBody = document.getElementById('body')
-const figureMobile = document.getElementById('figure-img-mobile');
 
 const clickMenuOpen = () => {
   navMobile.style.display = 'flex';
-  styleBody.classList.add('style-body')
-  figureMobile.classList.add('style-figure')
 }
 
 const clickMenuClose = () => {
   navMobile.style.display = 'none'
-  styleBody.classList.remove('style-body')
-  figureMobile.classList.remove('style-figure')
 }
 
 const iconListFeatures = () => {
